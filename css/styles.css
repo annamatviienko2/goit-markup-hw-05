@@ -148,7 +148,7 @@ color: var(--background-color);
 
 .nav-link.current::after {
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
 
     content: '';
     display: block;
@@ -353,13 +353,14 @@ color: var(--background-color);
 
         
        
-   
+
     }
 
     .modal-button {
       
         background-color: var(--background-color);
         border-color: transparent;
+        cursor:pointer;
                      
     }
 
